@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0576A9B4251DC74B004D92C3 /* MDPictureBrowserViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0576A9B3251DC74B004D92C3 /* MDPictureBrowserViewLayout.m */; };
+		058877E3251B2E4500A8CF03 /* MDPictureBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 058877E2251B2E4500A8CF03 /* MDPictureBrowserViewController.m */; };
+		058877F8251B38A400A8CF03 /* MDPictureBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 058877F7251B38A400A8CF03 /* MDPictureBrowserCell.m */; };
+		05887800251C85F700A8CF03 /* MDPictureBrowserTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 058877FF251C85F700A8CF03 /* MDPictureBrowserTransition.m */; };
+		0589F06B24F78D0C00EFF87C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0589F06A24F78D0C00EFF87C /* AppDelegate.m */; };
+		0589F06E24F78D0C00EFF87C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0589F06D24F78D0C00EFF87C /* SceneDelegate.m */; };
+		0589F07124F78D0C00EFF87C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0589F07024F78D0C00EFF87C /* ViewController.m */; };
+		0589F07424F78D0C00EFF87C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0589F07224F78D0C00EFF87C /* Main.storyboard */; };
+		0589F07624F78D0F00EFF87C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0589F07524F78D0F00EFF87C /* Assets.xcassets */; };
+		0589F07924F78D0F00EFF87C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0589F07724F78D0F00EFF87C /* LaunchScreen.storyboard */; };
+		0589F07C24F78D0F00EFF87C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0589F07B24F78D0F00EFF87C /* main.m */; };
+		0589F08624F7905A00EFF87C /* MDDetailListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0589F08524F7905A00EFF87C /* MDDetailListViewController.m */; };
+		0589F08924F793F600EFF87C /* MDTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0589F08824F793F600EFF87C /* MDTransitionManager.m */; };
+		0589F08C24F79B2600EFF87C /* MDZoomTransiton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0589F08B24F79B2600EFF87C /* MDZoomTransiton.m */; };
+		0589F08F24F7A21200EFF87C /* MDBaseTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0589F08E24F7A21200EFF87C /* MDBaseTransition.m */; };
+		05DF1F2C2520452C0072A068 /* UIViewController+MDTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DF1F2B2520452C0072A068 /* UIViewController+MDTransition.m */; };
+		05DF1F31252071EB0072A068 /* UIViewController+MDTransitionProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DF1F30252071EB0072A068 /* UIViewController+MDTransitionProperty.m */; };
+		05DF1F3A25207E5D0072A068 /* MDPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DF1F3925207E5D0072A068 /* MDPercentDrivenInteractiveTransition.m */; };
+		4E30CDB9A371D4849ECE4C0E /* libPods-HQPageTransition.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F06DF310AB4B4AEDAE01436E /* libPods-HQPageTransition.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04CFF26740E296CC66BCCC16 /* Pods-HQPageTransition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQPageTransition.release.xcconfig"; path = "Target Support Files/Pods-HQPageTransition/Pods-HQPageTransition.release.xcconfig"; sourceTree = "<group>"; };
+		0576A9B2251DC74B004D92C3 /* MDPictureBrowserViewLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDPictureBrowserViewLayout.h; sourceTree = "<group>"; };
+		0576A9B3251DC74B004D92C3 /* MDPictureBrowserViewLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDPictureBrowserViewLayout.m; sourceTree = "<group>"; };
+		058877E1251B2E4500A8CF03 /* MDPictureBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDPictureBrowserViewController.h; sourceTree = "<group>"; };
+		058877E2251B2E4500A8CF03 /* MDPictureBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDPictureBrowserViewController.m; sourceTree = "<group>"; };
+		058877F6251B38A400A8CF03 /* MDPictureBrowserCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDPictureBrowserCell.h; sourceTree = "<group>"; };
+		058877F7251B38A400A8CF03 /* MDPictureBrowserCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDPictureBrowserCell.m; sourceTree = "<group>"; };
+		058877FE251C85F700A8CF03 /* MDPictureBrowserTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDPictureBrowserTransition.h; sourceTree = "<group>"; };
+		058877FF251C85F700A8CF03 /* MDPictureBrowserTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDPictureBrowserTransition.m; sourceTree = "<group>"; };
+		0589F06624F78D0C00EFF87C /* HQPageTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQPageTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0589F06924F78D0C00EFF87C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0589F06A24F78D0C00EFF87C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0589F06C24F78D0C00EFF87C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0589F06D24F78D0C00EFF87C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0589F06F24F78D0C00EFF87C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0589F07024F78D0C00EFF87C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0589F07324F78D0C00EFF87C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0589F07524F78D0F00EFF87C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0589F07824F78D0F00EFF87C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0589F07A24F78D0F00EFF87C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0589F07B24F78D0F00EFF87C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0589F08424F7905A00EFF87C /* MDDetailListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDDetailListViewController.h; sourceTree = "<group>"; };
+		0589F08524F7905A00EFF87C /* MDDetailListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDDetailListViewController.m; sourceTree = "<group>"; };
+		0589F08724F793F600EFF87C /* MDTransitionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDTransitionManager.h; sourceTree = "<group>"; };
+		0589F08824F793F600EFF87C /* MDTransitionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTransitionManager.m; sourceTree = "<group>"; };
+		0589F08A24F79B2600EFF87C /* MDZoomTransiton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDZoomTransiton.h; sourceTree = "<group>"; };
+		0589F08B24F79B2600EFF87C /* MDZoomTransiton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDZoomTransiton.m; sourceTree = "<group>"; };
+		0589F08D24F7A21200EFF87C /* MDBaseTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDBaseTransition.h; sourceTree = "<group>"; };
+		0589F08E24F7A21200EFF87C /* MDBaseTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDBaseTransition.m; sourceTree = "<group>"; };
+		0589F09624F7BBAF00EFF87C /* MDTransitionProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDTransitionProtocol.h; sourceTree = "<group>"; };
+		05DF1F2A2520452C0072A068 /* UIViewController+MDTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MDTransition.h"; sourceTree = "<group>"; };
+		05DF1F2B2520452C0072A068 /* UIViewController+MDTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MDTransition.m"; sourceTree = "<group>"; };
+		05DF1F2F252071EB0072A068 /* UIViewController+MDTransitionProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MDTransitionProperty.h"; sourceTree = "<group>"; };
+		05DF1F30252071EB0072A068 /* UIViewController+MDTransitionProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MDTransitionProperty.m"; sourceTree = "<group>"; };
+		05DF1F3825207E5D0072A068 /* MDPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		05DF1F3925207E5D0072A068 /* MDPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
+		61880C6680F27E9BBD5E1F9E /* Pods-HQPageTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQPageTransition.debug.xcconfig"; path = "Target Support Files/Pods-HQPageTransition/Pods-HQPageTransition.debug.xcconfig"; sourceTree = "<group>"; };
+		F06DF310AB4B4AEDAE01436E /* libPods-HQPageTransition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HQPageTransition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0589F06324F78D0C00EFF87C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E30CDB9A371D4849ECE4C0E /* libPods-HQPageTransition.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0576A9A7251D8B3D004D92C3 /* PictureBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				058877E1251B2E4500A8CF03 /* MDPictureBrowserViewController.h */,
+				058877E2251B2E4500A8CF03 /* MDPictureBrowserViewController.m */,
+				0576A9B2251DC74B004D92C3 /* MDPictureBrowserViewLayout.h */,
+				0576A9B3251DC74B004D92C3 /* MDPictureBrowserViewLayout.m */,
+				058877F6251B38A400A8CF03 /* MDPictureBrowserCell.h */,
+				058877F7251B38A400A8CF03 /* MDPictureBrowserCell.m */,
+			);
+			path = PictureBrowser;
+			sourceTree = "<group>";
+		};
+		0589F05D24F78D0C00EFF87C = {
+			isa = PBXGroup;
+			children = (
+				0589F06824F78D0C00EFF87C /* HQPageTransition */,
+				0589F06724F78D0C00EFF87C /* Products */,
+				FD4FF88887DCBC69ED5E5538 /* Pods */,
+				0DE7F4E7706BF5297ECFCECC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0589F06724F78D0C00EFF87C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0589F06624F78D0C00EFF87C /* HQPageTransition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0589F06824F78D0C00EFF87C /* HQPageTransition */ = {
+			isa = PBXGroup;
+			children = (
+				0589F06924F78D0C00EFF87C /* AppDelegate.h */,
+				0589F06A24F78D0C00EFF87C /* AppDelegate.m */,
+				0589F06C24F78D0C00EFF87C /* SceneDelegate.h */,
+				0589F06D24F78D0C00EFF87C /* SceneDelegate.m */,
+				0589F06F24F78D0C00EFF87C /* ViewController.h */,
+				0589F07024F78D0C00EFF87C /* ViewController.m */,
+				0589F08424F7905A00EFF87C /* MDDetailListViewController.h */,
+				0589F08524F7905A00EFF87C /* MDDetailListViewController.m */,
+				0576A9A7251D8B3D004D92C3 /* PictureBrowser */,
+				0589F08324F78D8500EFF87C /* Transitioning */,
+				0589F07224F78D0C00EFF87C /* Main.storyboard */,
+				0589F07524F78D0F00EFF87C /* Assets.xcassets */,
+				0589F07724F78D0F00EFF87C /* LaunchScreen.storyboard */,
+				0589F07B24F78D0F00EFF87C /* main.m */,
+				0589F07A24F78D0F00EFF87C /* Info.plist */,
+			);
+			path = HQPageTransition;
+			sourceTree = "<group>";
+		};
+		0589F08324F78D8500EFF87C /* Transitioning */ = {
+			isa = PBXGroup;
+			children = (
+				05DF1F3E25209C8F0072A068 /* Transition */,
+				05DF1F2A2520452C0072A068 /* UIViewController+MDTransition.h */,
+				05DF1F2B2520452C0072A068 /* UIViewController+MDTransition.m */,
+				05DF1F2F252071EB0072A068 /* UIViewController+MDTransitionProperty.h */,
+				05DF1F30252071EB0072A068 /* UIViewController+MDTransitionProperty.m */,
+				0589F08724F793F600EFF87C /* MDTransitionManager.h */,
+				0589F08824F793F600EFF87C /* MDTransitionManager.m */,
+				0589F09624F7BBAF00EFF87C /* MDTransitionProtocol.h */,
+			);
+			path = Transitioning;
+			sourceTree = "<group>";
+		};
+		05DF1F3E25209C8F0072A068 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				0589F08D24F7A21200EFF87C /* MDBaseTransition.h */,
+				0589F08E24F7A21200EFF87C /* MDBaseTransition.m */,
+				05DF1F3825207E5D0072A068 /* MDPercentDrivenInteractiveTransition.h */,
+				05DF1F3925207E5D0072A068 /* MDPercentDrivenInteractiveTransition.m */,
+				058877FE251C85F700A8CF03 /* MDPictureBrowserTransition.h */,
+				058877FF251C85F700A8CF03 /* MDPictureBrowserTransition.m */,
+				0589F08A24F79B2600EFF87C /* MDZoomTransiton.h */,
+				0589F08B24F79B2600EFF87C /* MDZoomTransiton.m */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		0DE7F4E7706BF5297ECFCECC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F06DF310AB4B4AEDAE01436E /* libPods-HQPageTransition.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD4FF88887DCBC69ED5E5538 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61880C6680F27E9BBD5E1F9E /* Pods-HQPageTransition.debug.xcconfig */,
+				04CFF26740E296CC66BCCC16 /* Pods-HQPageTransition.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0589F06524F78D0C00EFF87C /* HQPageTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0589F07F24F78D0F00EFF87C /* Build configuration list for PBXNativeTarget "HQPageTransition" */;
+			buildPhases = (
+				192FECB6A95BDFBF73E005DB /* [CP] Check Pods Manifest.lock */,
+				0589F06224F78D0C00EFF87C /* Sources */,
+				0589F06324F78D0C00EFF87C /* Frameworks */,
+				0589F06424F78D0C00EFF87C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HQPageTransition;
+			productName = HQPageTransition;
+			productReference = 0589F06624F78D0C00EFF87C /* HQPageTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0589F05E24F78D0C00EFF87C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MD;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = huangqun;
+				TargetAttributes = {
+					0589F06524F78D0C00EFF87C = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 0589F06124F78D0C00EFF87C /* Build configuration list for PBXProject "HQPageTransition" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0589F05D24F78D0C00EFF87C;
+			productRefGroup = 0589F06724F78D0C00EFF87C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0589F06524F78D0C00EFF87C /* HQPageTransition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0589F06424F78D0C00EFF87C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0589F07924F78D0F00EFF87C /* LaunchScreen.storyboard in Resources */,
+				0589F07624F78D0F00EFF87C /* Assets.xcassets in Resources */,
+				0589F07424F78D0C00EFF87C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		192FECB6A95BDFBF73E005DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HQPageTransition-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0589F06224F78D0C00EFF87C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058877F8251B38A400A8CF03 /* MDPictureBrowserCell.m in Sources */,
+				05DF1F2C2520452C0072A068 /* UIViewController+MDTransition.m in Sources */,
+				05887800251C85F700A8CF03 /* MDPictureBrowserTransition.m in Sources */,
+				05DF1F31252071EB0072A068 /* UIViewController+MDTransitionProperty.m in Sources */,
+				0589F07124F78D0C00EFF87C /* ViewController.m in Sources */,
+				0589F08624F7905A00EFF87C /* MDDetailListViewController.m in Sources */,
+				0589F08C24F79B2600EFF87C /* MDZoomTransiton.m in Sources */,
+				0576A9B4251DC74B004D92C3 /* MDPictureBrowserViewLayout.m in Sources */,
+				0589F06B24F78D0C00EFF87C /* AppDelegate.m in Sources */,
+				058877E3251B2E4500A8CF03 /* MDPictureBrowserViewController.m in Sources */,
+				0589F08F24F7A21200EFF87C /* MDBaseTransition.m in Sources */,
+				0589F08924F793F600EFF87C /* MDTransitionManager.m in Sources */,
+				05DF1F3A25207E5D0072A068 /* MDPercentDrivenInteractiveTransition.m in Sources */,
+				0589F07C24F78D0F00EFF87C /* main.m in Sources */,
+				0589F06E24F78D0C00EFF87C /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0589F07224F78D0C00EFF87C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0589F07324F78D0C00EFF87C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0589F07724F78D0F00EFF87C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0589F07824F78D0F00EFF87C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0589F07D24F78D0F00EFF87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0589F07E24F78D0F00EFF87C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0589F08024F78D0F00EFF87C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61880C6680F27E9BBD5E1F9E /* Pods-HQPageTransition.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQB5822DLB;
+				INFOPLIST_FILE = HQPageTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.modian.study.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0589F08124F78D0F00EFF87C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04CFF26740E296CC66BCCC16 /* Pods-HQPageTransition.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PQB5822DLB;
+				INFOPLIST_FILE = HQPageTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.modian.study.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0589F06124F78D0C00EFF87C /* Build configuration list for PBXProject "HQPageTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0589F07D24F78D0F00EFF87C /* Debug */,
+				0589F07E24F78D0F00EFF87C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0589F07F24F78D0F00EFF87C /* Build configuration list for PBXNativeTarget "HQPageTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0589F08024F78D0F00EFF87C /* Debug */,
+				0589F08124F78D0F00EFF87C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0589F05E24F78D0C00EFF87C /* Project object */;
+}
